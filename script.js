@@ -1,6 +1,6 @@
 const resBtns = document.querySelectorAll('.resButton');
 const resetBtn = document.querySelector('.resetButton');
-const view = document.querySelector('.responsiveView');
+const view = document.querySelector('.wrapper');
 
 resBtns.forEach(button => {
 	button.addEventListener('click', () => {
