@@ -1,0 +1,53 @@
+
+/* General styles */
+body {
+	font-family: 'Roboto', sans-serif;
+	background: #ffffff;
+	font-size: 14px;
+	background: #0a2e36;
+  overflow: auto hidden;
+}
+.buttons-bar {
+	padding-top: 24px;
+	text-align: center;
+  padding-bottom: 1.5rem;
+}
+.resButton {
+	border: 0;
+	margin-right: 32px;
+	font-size: 3em;
+	color: #919191;
+	outline: none;
+	transition: 0.3s ease color;
+	background: transparent;
+}
+.resButton:hover {
+	color: #fff;
+	cursor: pointer;
+}
+.resButton:nth-child(3) {
+	transform: rotate(90deg);
+}
+.active {
+	color: #fff;
+}
+.wrapper {
+	/*width: 100%;*/
+  width: 1024px;
+	margin: 24px;
+	box-sizing: border-box;
+  margin: 0 auto;
+  transition: 0.7s ease width;
+}
+.responsiveView {
+	display: block;
+  width: 100%;
+	/*width: 1366px;*/
+	/*max-width: 100%;*/
+	min-height: 80vh;
+	border: 0;
+	margin: 0 auto;
+
+	border-radius: 10px;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
